@@ -7,19 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B3210D848531E7062B6E4E90 /* Pods_CustomTextField.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AEC6BA454560612AD048193A /* Pods_CustomTextField.framework */; };
 		C98C96F82226F92D000DEC4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C96F72226F92D000DEC4A /* AppDelegate.swift */; };
 		C98C96FA2226F92D000DEC4A /* RootViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C96F92226F92D000DEC4A /* RootViewController.swift */; };
 		C98C96FC2226F92E000DEC4A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C98C96FB2226F92E000DEC4A /* Assets.xcassets */; };
 		C98C96FF2226F92E000DEC4A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C98C96FD2226F92E000DEC4A /* LaunchScreen.storyboard */; };
+		C98C97072226F9D8000DEC4A /* CustomTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = C98C97062226F9D8000DEC4A /* CustomTextField.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		AE4BDAA798C2A0096672C92B /* Pods-CustomTextField.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTextField.debug.xcconfig"; path = "Target Support Files/Pods-CustomTextField/Pods-CustomTextField.debug.xcconfig"; sourceTree = "<group>"; };
+		AEC6BA454560612AD048193A /* Pods_CustomTextField.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CustomTextField.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98C96F42226F92D000DEC4A /* CustomTextField.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CustomTextField.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C98C96F72226F92D000DEC4A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C98C96F92226F92D000DEC4A /* RootViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootViewController.swift; sourceTree = "<group>"; };
 		C98C96FB2226F92E000DEC4A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C98C96FE2226F92E000DEC4A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C98C97002226F92E000DEC4A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C98C97062226F9D8000DEC4A /* CustomTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomTextField.swift; sourceTree = "<group>"; };
+		DFD887580C4F10692DB6EA8F /* Pods-CustomTextField.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CustomTextField.release.xcconfig"; path = "Target Support Files/Pods-CustomTextField/Pods-CustomTextField.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -27,17 +33,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3210D848531E7062B6E4E90 /* Pods_CustomTextField.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2621141F829B87EADD25A0AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				AEC6BA454560612AD048193A /* Pods_CustomTextField.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		47D65E422FD1353192A04A18 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AE4BDAA798C2A0096672C92B /* Pods-CustomTextField.debug.xcconfig */,
+				DFD887580C4F10692DB6EA8F /* Pods-CustomTextField.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		C98C96EB2226F92D000DEC4A = {
 			isa = PBXGroup;
 			children = (
 				C98C96F62226F92D000DEC4A /* CustomTextField */,
 				C98C96F52226F92D000DEC4A /* Products */,
+				47D65E422FD1353192A04A18 /* Pods */,
+				2621141F829B87EADD25A0AF /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -57,6 +83,7 @@
 				C98C96FB2226F92E000DEC4A /* Assets.xcassets */,
 				C98C96FD2226F92E000DEC4A /* LaunchScreen.storyboard */,
 				C98C97002226F92E000DEC4A /* Info.plist */,
+				C98C97062226F9D8000DEC4A /* CustomTextField.swift */,
 			);
 			path = CustomTextField;
 			sourceTree = "<group>";
@@ -68,9 +95,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = C98C97032226F92E000DEC4A /* Build configuration list for PBXNativeTarget "CustomTextField" */;
 			buildPhases = (
+				95BD8AB2D0686DF00072418F /* [CP] Check Pods Manifest.lock */,
 				C98C96F02226F92D000DEC4A /* Sources */,
 				C98C96F12226F92D000DEC4A /* Frameworks */,
 				C98C96F22226F92D000DEC4A /* Resources */,
+				2150240272A2906ADB9330FF /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -126,6 +155,53 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		2150240272A2906ADB9330FF /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CustomTextField/Pods-CustomTextField-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/TinyConstraints/TinyConstraints.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/TinyConstraints.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CustomTextField/Pods-CustomTextField-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		95BD8AB2D0686DF00072418F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CustomTextField-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		C98C96F02226F92D000DEC4A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -133,6 +209,7 @@
 			files = (
 				C98C96FA2226F92D000DEC4A /* RootViewController.swift in Sources */,
 				C98C96F82226F92D000DEC4A /* AppDelegate.swift in Sources */,
+				C98C97072226F9D8000DEC4A /* CustomTextField.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,6 +345,7 @@
 		};
 		C98C97042226F92E000DEC4A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE4BDAA798C2A0096672C92B /* Pods-CustomTextField.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -286,6 +364,7 @@
 		};
 		C98C97052226F92E000DEC4A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DFD887580C4F10692DB6EA8F /* Pods-CustomTextField.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
